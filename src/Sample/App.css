@@ -1,0 +1,10 @@
+.image{
+    display: flex;
+  
+    justify-content: space-around;
+}
+.image img{ 
+    /* display: flex; */
+    flex-direction: column;
+    border: 2px solid rgb(119, 119, 5);
+}

@@ -1,0 +1,23 @@
+ real dom manipulation example code -     below
+
+ const div = document.createElement('div');
+div.innerHTML = 'Hello, World!';
+document.body.appendChild(div);
+
+
+virtual dom manipulation example below -
+
+ const [items, setItems] = useState([]);
+
+const addItem = () => {
+  setItems([...items, 'New Item']);
+};
+
+return (
+  <div>
+    {items.map((item, index) => (
+      <div key={index}>{item}</div>
+    ))}
+    <button onClick={addItem}>Add Item</button>
+  </div>
+);

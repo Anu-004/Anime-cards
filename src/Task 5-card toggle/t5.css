@@ -1,0 +1,25 @@
+
+.container{
+    border:2px solid black;
+    text-align: center;
+    /* width:30vw; */
+    /* height: 90vh; */
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+.container button{
+    margin-left: 13em;
+    margin-top: 1em;
+}
+ul{
+    list-style-type: none;
+   margin-left: 1em;
+   margin-right: 3em;
+}
+li{
+    padding: 2px;
+    border:none;
+    margin-bottom: 10px;
+    background-color: rgba(0, 255, 255, 0.242);
+}
